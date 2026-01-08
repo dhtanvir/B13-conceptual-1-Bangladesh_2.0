@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul ol li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* common styles */
+.btn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    color: #006A50;
+    font-size: 18px;
+    border: 1px solid #006A50;
+}
+
+header {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px
+}
+
+.logo h2 {
+    color: #0E0E0E;
+    font-size: 32px;
+}
+
+.banner-section {
+    margin-top: 20px;
+}
+
+.banner-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    width: 100%;
+    height: 500px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 60px;
+}
+
+.banner-text h4 {
+    font-size: 24px;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    opacity: 0.5;
+}
+
+.banner-text h2 {
+    font-size: 55px;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 67px;
+    text-align: left;
+}
+
+.btn-banner {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+/* pillars section */
+
+.pillars-section {
+    margin-top: 80px;
+}
+
+.pillars-container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pillars-container h2 {
+    font-size: 40px;
+    color: #0E0E0E;
+    padding: 20px 0;
+}
+
+.pillars-container .pillars-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 20px 0px;
+}
+
+.pillars-card {
+    border-radius: 5px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.pillars-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin: 10px 0;
+
+}
+
+.pillars-card p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 0.6;
+
+}
+
+/*Vision section  */
+
+.vision-section {
+    margin-top: 80px;
+}
+
+.vision-container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vision-container h2 {
+    font-size: 40px;
+    color: #0E0E0E;
+    padding: 20px 0;
+}
+
+.vision-container p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.vision-container .vision-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 20px 0px;
+}
+
+.vision-card-item-1 {
+    border-radius: 5px;
+    padding: 32px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.btn-vision-1 {
+    background-color: #5490F5;
+    padding: 11px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+.vision-card-item-1 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin: 20px 0;
+}
+
+.vision-card-item-1 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 0.6;
+    margin-bottom: 20px;
+
+}
+/*  */
+.vision-card-item-2 {
+    border-radius: 5px;
+    padding: 32px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #C6E4D6;
+}
+
+.btn-vision-2 {
+    background-color: #09A15C;
+    padding: 11px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+.vision-card-item-2 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin: 20px 0;
+}
+
+.vision-card-item-2 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+/*  */
+.vision-card-item-3 {
+    border-radius: 5px;
+    padding: 32px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #F7EBCF;
+}
+
+.btn-vision-3 {
+    background-color: #FFC239;
+    padding: 11px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+.vision-card-item-3 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin: 20px 0;
+}
+
+.vision-card-item-3 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+/*  */
